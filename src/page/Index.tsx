@@ -6,7 +6,7 @@ export default function Index() {
   const { openModal } = useModalStore();
 
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 h-[10000px]">
       <h1 className="text-2xl">Index 페이지</h1>
 
       <button
